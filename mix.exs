@@ -5,7 +5,7 @@ defmodule Postgrex.Mixfile do
     [
       app: :phoenix_channel_with_fallback,
       version: "0.1.0",
-      elixir: "~> 1.4",
+      elixir: "~> 1.14",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       description: "Response fallback for Phoenix channel functions",
